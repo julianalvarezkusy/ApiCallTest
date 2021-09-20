@@ -7,7 +7,6 @@ import retrofit2.http.Query
 import retrofit2.http.Url
 
 interface UserService {
-
     @GET("v2")
     fun listRecipes(@Query("type") type: String, @Query("q") search: String, @Query("app_id") key: String, @Query("app_key") appKey: String): Call<List<RecipesDataCollectionItem>>
 }
