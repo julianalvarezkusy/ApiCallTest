@@ -12,4 +12,4 @@ jobs:
           java-version: 1.8
 
       - name: Build App
-        run: ./gradlew assemble
+        run: ./gradlew build
